@@ -1,0 +1,99 @@
+<html>
+  <head>
+    <title>Details form</title>
+      <link rel = "icon" href = "favicon.png" type = "image/x-icon">
+        <script type="text/javascript" src="https://details-form.s3.amazonaws.com/submit-data.js"></script>
+         <style>
+            body{
+            text-align:center;
+            font-family:sans-serif;
+            background-image:linear-gradient(to bottom right, #33adff , #7300e6);
+            color:white;  
+            }
+            #getDetails{
+              align-items: center;
+            }
+            #getDetails td{
+              border: 1px solid #ddd;
+              padding: 8px;
+              text-align: center;
+            }
+            #getDetails th{
+              border: 5px solid #ddd;
+              padding-top: 12px;
+              padding-bottom: 12px;
+              text-align: center;
+            }
+            #title{
+            font-size:45px;
+            }
+            #description{
+            font-size:20px;
+            }
+            #body{
+            width:600px;
+            padding:30px;
+            margin:auto;
+            border-radius:10px;
+            text-align:left;
+            background-color:rgba(0,0,0,0.6);
+            font-size:20px;
+            color:white;
+            }
+
+            #name{
+            width:560px;
+            padding:15px;
+            border-radius:10px;
+            }
+            #address{
+            width:560px;
+            padding:15px;
+            border-radius:10px;
+            }
+            
+            #submit{
+            width:200px;
+            padding:20px;
+            font-size:20px;
+            margin-left: 30%;
+            margin-right: 30%;
+            border-radius:10px;
+            border:none;
+            margin-top:3%;
+            color:white;
+            background-color:green;
+            }
+
+          </style>
+    </head>
+<body>
+  <h1 id="title">Registration</h1>
+  <div id="body">
+
+  <form id="survey-form">
+      <label id="name-label" for="name">
+          <p>Name:</p>
+      </label>
+      <input id="name" type="text" placeholder="Enter Your Name" required>
+    
+      <label id="address-label" for="address">
+          <p>Address:</p>
+      </label>
+      <input id="address" type="address" placeholder="Enter Your Address" required>
+    
+  <button id="submit" type="button" onclick="submit_data()">Add More</button>
+  </form>
+  </div>
+
+  <div class="d-flex justify-content-center">
+    <div class="spinner-border"
+         role="status" id="loading">
+        <span class="sr-only">Loading...</span>
+    </div>
+</div>
+<h1>Registered Employees</h1>
+<table id="getDetails" align="center"> </table>
+</body>
+</html>
+  
