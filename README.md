@@ -1,6 +1,8 @@
 # Details-Form
 Web application for implementing CRUD operation on `AWS`.
 
+[Click here](https://details-form.s3.amazonaws.com/Index.html "LCO")
+
 # Tools
 [AWS API Gateway](https://docs.aws.amazon.com/apigateway/latest/developerguide/welcome.html "LCO")
 
