@@ -13,9 +13,7 @@ jobs:
 
     steps:
       - name: Checkout the files
-        uses: actions/checkout@v2
-        with:
-          node-version: 16
+        uses: actions/checkout@v4
 
       - name: Deploy to Server 1
         uses: easingthemes/ssh-deploy@main
