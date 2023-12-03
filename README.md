@@ -4,6 +4,8 @@ Web application for implementing CRUD operation on `AWS`.
 [Click here](https://details-form.s3.amazonaws.com/Index.html "LCO")
 
 ## Tools
+[Amazon EC2](https://docs.aws.amazon.com/ec2/ "LCO")
+
 [AWS API Gateway](https://docs.aws.amazon.com/apigateway/latest/developerguide/welcome.html "LCO")
 
 [AWS Lambda](https://docs.aws.amazon.com/lambda/ "LCO")
